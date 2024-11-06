@@ -60,11 +60,11 @@ const Navbar = () => {
       href: '/projects'
     },
 
-    {
-      title: 'Contact me',
-      icon: <Mail className="h-full w-full " />,
-      href: '/contact'
-    }
+    // {
+    //   title: 'Contact me',
+    //   icon: <Mail className="h-full w-full " />,
+    //   href: '/contact'
+    // }
   ]
   const [scrolling, setScrolling] = useState(false)
   const pathname = usePathname()
