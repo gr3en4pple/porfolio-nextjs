@@ -36,12 +36,6 @@ export const metadata: Metadata = {
     'website',
     'ntgiang2399'
   ],
-  authors: [
-    {
-      name: 'Taqui Imam',
-      url: 'https://github.com/taqui-786'
-    }
-  ],
 
   openGraph: {
     type: 'website',
@@ -49,14 +43,14 @@ export const metadata: Metadata = {
     url: siteConfig.url,
     title: siteConfig.name,
     description: siteConfig.description,
-    images: [`${siteConfig.url}/og-image.png`],
+    images: [`${siteConfig.url}/og-image.jpg`],
     siteName: siteConfig.name
   },
   twitter: {
     card: 'summary_large_image',
     title: siteConfig.name,
     description: siteConfig.description,
-    images: [`${siteConfig.url}/og-image.png`],
+    images: [`${siteConfig.url}/og-image.jpg`]
   },
   icons: {
     icon: '/favicon.ico'
