@@ -21,12 +21,26 @@ const projectsPage = () => {
         "A safe and secure centralized cryptocurrencies exchange of spot and futures trading in the Nami Foundation's Ecosystem",
       tags: ['Nextjs', 'Redux', 'SWR', 'TailwindCSS', 'SCSS', 'SocketIO'],
       link: 'https://nami.exchange'
+    },
+    {
+      title:
+        'Winery Finance - A dApp running on BSC Network.',
+      description:
+        'A decentralized application during the Web3 explosive time. It includes key features such as AMM Swap, IDO, NFT Marketplace, and Lottery.',
+      tags: [
+        'Reactjs',
+        'Typescript',
+        'Styled Components',
+        'Web3.js',
+        'web3-react'
+      ],
+      link: 'https://winery.finance'
     }
   ]
 
   return (
     // PROJECT PAGE
-    <div className="relative my-10 md:my-0 flex flex-col items-start w-full h-full gap-5 overflow-hidden">
+    <div className="relative flex flex-col items-start w-full gap-5 my-10 overflow-hidden md:my-0">
       <Badge className="gap-2 ">
         <FolderGit2 className="w-5 h-5" />
         Projects

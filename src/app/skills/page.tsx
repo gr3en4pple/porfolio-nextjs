@@ -41,7 +41,7 @@ const skillPage = () => {
     // SKILLS PAGE
 
     <TooltipProvider>
-      <div className="relative flex flex-col items-start w-full h-full gap-5 my-10 overflow-hidden md:my-0">
+      <div className="relative flex flex-col items-start w-full gap-5 my-10 overflow-hidden md:my-0">
         <Badge className="gap-2 ">
           <Briefcase className="w-5 h-5" />
           My Skills

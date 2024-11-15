@@ -24,7 +24,7 @@ const ProjectCards: React.FC<projectcardprops> = ({ value, num }) => {
       delay={num / 4}
       duration={0.15}
     >
-      <Card className="w-full h-full">
+      <Card className="w-full ">
         <CardHeader>
           <CardTitle>{value.title}</CardTitle>
         </CardHeader>
@@ -40,6 +40,8 @@ const ProjectCards: React.FC<projectcardprops> = ({ value, num }) => {
                     (itm === 'SWR' && 'bg-yellow-100 text-yellow-800 ') ||
                     (itm === 'Redux' && 'bg-blue-100 text-blue-800') ||
                     (itm === 'Typescript' && 'bg-red-100 text-red-800') ||
+                    (itm === 'Reactjs' && 'bg-[rgb(8,126,164)] text-white') ||
+                    (itm === 'Styled Components' && 'border border-[#BF4F74] text-[#BF4F74]') ||
                     (itm === 'TailwindCSS' && 'bg-purple-100 text-blue-800') ||
                     'bg-gray-100 text-gray-800'
                   }  `}

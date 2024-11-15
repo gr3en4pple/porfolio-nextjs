@@ -24,15 +24,6 @@ import FramerWrapper from './animation/FramerWrapper'
 import { usePathname } from 'next/navigation'
 
 const Navbar = () => {
-  // const items = [
-  //   { name: "Home", icon: <Home />, link: "/" },
-  //   { name: "About", icon: <User />, link: "/about" },
-  //   { name: "Skills", icon: <Briefcase />, link: "/skills" },
-  //   { name: "Education", icon: <GraduationCap />, link: "/education" },
-  //   { name: "Projects", icon: <FolderGit2 />, link: "/projects" },
-  //   { name: "Contact", icon: <Mail />, link: "/contact" },
-  //   { name: "More", icon: <MoreHorizontal />, link: "/more" },
-  // ]
   const data = [
     {
       title: 'Home',
@@ -58,7 +49,7 @@ const Navbar = () => {
       title: 'Projects',
       icon: <FolderGit2 className="h-full w-full " />,
       href: '/projects'
-    },
+    }
 
     // {
     //   title: 'Contact me',

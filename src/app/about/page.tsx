@@ -15,7 +15,7 @@ const Hobbies = [
 const page = () => {
   return (
     // ABOUT PAGE
-    <div className="relative flex flex-col items-start w-full h-full gap-5 my-10 overflow-hidden md:my-0">
+    <div className="relative flex flex-col items-start w-full gap-5 my-10 overflow-hidden md:my-0">
       <Badge className="gap-2 ">
         <User2 className="w-5 h-5" />
         About me
