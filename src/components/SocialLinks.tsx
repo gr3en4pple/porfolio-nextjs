@@ -73,19 +73,13 @@ const links = [
     link: 'https://www.linkedin.com/in/giang-nguyen-a50a82232/',
     icon: <Linkedin />
   }
-  // {
-  //   name: 'External',
-  //   description: 'My CV',
-  //   link: 'https://drive.google.com/file/d/1sDVYjsyWDF5XMXDC4TqWZcpe-aJMVBVI/view?usp=drive_link',
-  //   icon: <Resume />
-  // }
 ]
 const SocialLinks = () => {
   return (
     <>
-      {links.map((itm, indx) => {
+      {links.map((itm) => {
         return (
-          <FramerWrapper key={indx} delay={0.1} y={50}>
+          <FramerWrapper key={itm.name} delay={0.1} y={50}>
             <TooltipProvider key={itm.name}>
               <Tooltip delayDuration={0.1}>
                 <TooltipTrigger asChild>

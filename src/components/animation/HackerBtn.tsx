@@ -39,7 +39,7 @@ const HackerBtn = ({ label }: { label: string }) => {
       onMouseEnter={startScrambling}
       onClick={() =>
         window.open(
-          'https://drive.usercontent.google.com/u/0/uc?id=1sDVYjsyWDF5XMXDC4TqWZcpe-aJMVBVI&export=download'
+          'https://drive.usercontent.google.com/u/0/uc?id=11SEktfjBhar0CZFqyeMUav5b5eScmnPy&export=download'
         )
       }
     >

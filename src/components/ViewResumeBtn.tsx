@@ -30,7 +30,7 @@ const ViewResumeBtn = () => {
       className="text-base px-5 py-6 flex gap-2"
       onClick={() =>
         window.open(
-          'https://drive.google.com/file/d/1sDVYjsyWDF5XMXDC4TqWZcpe-aJMVBVI/view'
+          'https://drive.google.com/file/d/11SEktfjBhar0CZFqyeMUav5b5eScmnPy/view'
         )
       }
     >
